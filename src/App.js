@@ -10,7 +10,7 @@ class App extends React.Component {
       <div>
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route exact path="/conflist" component={ConfList} />
+          <Route path="/conflist" component={ConfList} />
         </Switch>
       </div>
     );
