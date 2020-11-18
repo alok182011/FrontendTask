@@ -1,0 +1,26 @@
+.homepage-back {
+  width: auto;
+  height: 800px;
+  border: 1px solid white;
+  background-image: url("./back.jpg");
+}
+
+.homepage-text {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 200px;
+  text-shadow: 2px 2px black;
+}
+
+.homepage-title {
+  text-shadow: 4px 4px black;
+}
+
+.homepage-link {
+  text-decoration: none;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 2px black;
+  border: 2px solid blue;
+  color: rgb(84, 84, 223);
+}
