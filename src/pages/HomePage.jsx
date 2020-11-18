@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./HomePageStyle.css";
 
@@ -14,9 +15,9 @@ class HomePage extends React.Component {
           <br />
           <br />
           <br />
-          <a className="homepage-link" href="/conflist">
+          <Link className="homepage-link" to="/conflist">
             Explore All
-          </a>
+          </Link>
         </div>
       </div>
     );
