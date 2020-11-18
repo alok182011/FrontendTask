@@ -3,10 +3,6 @@ import React from "react";
 import "./HomePageStyle.css";
 
 class HomePage extends React.Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
       <div className="homepage-back">
